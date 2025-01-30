@@ -1,0 +1,302 @@
+/* Mobile view */
+.kimK {
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: -20%;
+}
+
+.kimKContent {
+    max-width: 65%;
+}
+
+.p {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 43%;
+    margin-bottom: 20%;
+}
+
+.h2 {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    width: 65%;
+    font-size: 30px;
+}
+
+.h2Animate:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    animation: typewriter 8s ease-in-out;
+    animation-fill-mode: forwards;
+}
+  
+  
+@keyframes typewriter {
+    0% {
+        content: "D";
+    }
+    1% {
+        content: "De";
+    }
+    2% {
+        content: "Det";
+    }
+    3% {
+        content: "Det ";
+    }
+    4% {
+        content: "Det e";
+    }
+    5% {
+        content: "Det er";
+    }
+    6% {
+        content: "Det er ";
+    }
+    7% {
+       content: "Det er i";
+    }
+    8% {
+        content: "Det er ik";
+    }
+    9% {
+        content: "Det er ikk";
+    }
+    10% {
+        content: "Det er ikke";
+    }
+    11% {
+        content: "Det er ikke ";
+    }
+    12% {
+        content: "Det er ikke n";
+    }
+    13% {
+        content: "Det er ikke ne";
+    }
+    14% {
+        content: "Det er ikke nem";
+    }
+    15% {
+        content: "Det er ikke nemt";
+    }
+    16% {
+        content: "Det er ikke nemt ";
+    }
+    17% {
+        content: "Det er ikke nemt a";
+    }
+    18% {
+        content: "Det er ikke nemt at";
+    }
+    19% {
+        content: "Det er ikke nemt at ";
+    }
+    20% {
+        content: "Det er ikke nemt at v";
+    }
+    21% {
+        content: "Det er ikke nemt at vi";
+    }
+    22% {
+        content: "Det er ikke nemt at vid";
+    }
+    23% {
+        content: "Det er ikke nemt at vide";
+    }
+    24% {
+        content: "Det er ikke nemt at vide ";
+    }
+    25% {
+        content: "Det er ikke nemt at vide h";
+        }
+    26% {
+        content: "Det er ikke nemt at vide hv";
+    }
+    27% {
+        content: "Det er ikke nemt at vide hva";
+    }
+    28% {
+        content: "Det er ikke nemt at vide hvad";
+    }
+    29% {
+        content: "Det er ikke nemt at vide hvad d";
+    }
+    30% {
+        content: "Det er ikke nemt at vide hvad de";
+    }
+    31% {
+        content: "Det er ikke nemt at vide hvad der";
+    }
+    32% {
+        content: "Det er ikke nemt at vide hvad der ";
+    }
+    33% {
+        content: "Det er ikke nemt at vide hvad der e";
+    }
+    34% {
+        content: "Det er ikke nemt at vide hvad der er";
+    }
+    35% {
+        content: "Det er ikke nemt at vide hvad der er ";
+    }
+    36% {
+        content: "Det er ikke nemt at vide hvad der er s";
+    }
+    37% {
+        content: "Det er ikke nemt at vide hvad der er sa";
+    }
+    38% {
+        content: "Det er ikke nemt at vide hvad der er san";
+    }
+    39% {
+        content: "Det er ikke nemt at vide hvad der er sand";
+    }
+    40% {
+        content: "Det er ikke nemt at vide hvad der er sandt";
+    }
+    41% {
+        content: "Det er ikke nemt at vide hvad der er sandt ";
+    }
+    42% {
+        content: "Det er ikke nemt at vide hvad der er sandt o";
+    }
+    43% {
+        content: "Det er ikke nemt at vide hvad der er sandt og";
+    }
+    44% {
+        content: "Det er ikke nemt at vide hvad der er sandt og ";
+    }
+    45% {
+        content: "Det er ikke nemt at vide hvad der er sandt og h";
+    }
+    46% {
+        content: "Det er ikke nemt at vide hvad der er sandt og hv";
+    }
+    47% {
+        content: "Det er ikke nemt at vide hvad der er sandt og hva";
+    }
+    48% {
+        content: "Det er ikke nemt at vide hvad der er sandt og hvad";
+    }
+    49% {
+        content: "Det er ikke nemt at vide hvad der er sandt og hvad ";
+    }
+    50% {
+        content: "Det er ikke nemt at vide hvad der er sandt og hvad d";
+    }
+    51% {
+        content: "Det er ikke nemt at vide hvad der er sandt og hvad de";
+    }
+    52% {
+        content: "Det er ikke nemt at vide hvad der er sandt og hvad der";
+    }
+    53% {
+        content: "Det er ikke nemt at vide hvad der er sandt og hvad der ";
+    }
+    54% {
+        content: "Det er ikke nemt at vide hvad der er sandt og hvad der e";
+    }
+    55% {
+        content: "Det er ikke nemt at vide hvad der er sandt og hvad der er";
+    }
+    56% {
+        content: "Det er ikke nemt at vide hvad der er sandt og hvad der er ";
+    }
+    57% {
+        content: "Det er ikke nemt at vide hvad der er sandt og hvad der er f";
+    }
+    58% {
+        content: "Det er ikke nemt at vide hvad der er sandt og hvad der er fa";
+    }
+    59% {
+        content: "Det er ikke nemt at vide hvad der er sandt og hvad der er fal";
+    }
+    60% {
+        content: "Det er ikke nemt at vide hvad der er sandt og hvad der er fals";
+    }
+    61% {
+        content: "Det er ikke nemt at vide hvad der er sandt og hvad der er falsk";
+    }
+    100% {
+        content: "Det er ikke nemt at vide hvad der er sandt og hvad der er falsk";
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    .kim, .pernille {
+        width: 600px;
+        height: 600px;
+    }
+
+    .flipButton {
+        margin-top: 40px;
+        width: 40%;
+        height: 50px;
+        padding: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        border: none;
+        background-color: #801212;
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+    }
+}
+
+
+/* Desktop view */
+@media (min-width: 1080px) {
+    .kimK {
+        height: 110vh;
+        flex-direction: row;
+        margin-top: -3%;
+
+        .kimKContent {
+            max-width: 30%;
+            margin-left: 20%;
+
+            .h2 {
+                width: 38%;
+                font-size: 48px;
+                margin-top: 30px;
+            }
+        
+            .p {
+                font-size: 25px;
+                margin-top: 35%;
+            }
+        }
+
+        .imageContainer {
+            margin-left: 15%;
+        }
+
+        .flipButton {
+            margin-top: 40px;
+            width: 30%;
+            height: 40px;
+            padding: 0px;
+            margin-left: 20%;
+        }
+    
+        .flipButton:hover {
+            background-color: #6a0f0f;
+        }
+    }
+}

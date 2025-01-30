@@ -1,0 +1,117 @@
+/* Mobile view */
+.sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .picContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 10%;
+
+        .img {
+            height: 300px;
+            width: 350px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .content {
+            background-color: #801212;
+            padding: 30px;
+            height: 28vh;
+            width: 350px;
+
+            .title {
+                font-size: 28px;
+                margin-bottom: 15px;
+                color: #fff;
+                font-family: 'Oswald', sans-serif;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-weight: 500;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                cursor: pointer;
+            }
+            
+            .text {
+                color: #fff;
+                font-size: 20px;
+                font-family: 'Oswald', sans-serif;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+
+/* Desktop view */
+@media (min-width: 1080px) {
+    .sections {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        .picContainer {
+            display: inline-block;
+            height: 500px;
+            width: 730px;
+            margin: 0px;
+            overflow: hidden;
+            position: relative;
+
+            .img {
+                height: 500px;
+                width: 730px;
+            }
+
+            .content {
+                height: 500px;
+                width: 730px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding-bottom: 10%;
+        
+                .title {
+                    font-size: 35px;
+                }
+        
+                .text {
+                    max-width: 60%;
+                    font-size: 25px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+
+    .img, .content {
+        transition: opacity 0.5s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      
+      .content {
+        opacity: 0;
+      }
+      
+      .picContainer:hover .img {
+        opacity: 0;
+      }
+      
+      .picContainer:hover .content {
+        opacity: 1;
+      }
+}

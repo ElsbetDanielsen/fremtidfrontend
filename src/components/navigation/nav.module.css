@@ -1,0 +1,120 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    height: 10vh;
+    width: 100%;
+    transition: left 0.5s ease;
+}
+  
+.navLogo {
+    list-style: none;
+    text-decoration: none;
+    color: #d40b0b;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 10%;
+    text-shadow: 4px 4px 3px #000;
+}
+
+.hamburger {
+    margin-right: 15%;
+    margin-bottom: 9%;
+    background: none;
+    border: none;
+}
+
+.hamburger .icon {
+    font-size: 35px;
+    color: #d40b0b;
+    cursor: pointer;
+    filter: drop-shadow(4px 4px 3px #000);
+    position: absolute;
+    transition: all 0.4s ease-in-out; /* Smooth transition for visibility and scale */
+}
+  
+.iconShow {
+    opacity: 1;
+    transform: rotate(0deg) scale(1); /* Default rotation and scale */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+  
+.iconHide {
+    opacity: 0;
+    transform: rotate(90deg) scale(0.5); /* Rotate and scale down to hide the icon */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+  
+.navLinks {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    padding: 1rem;
+    padding-top: 50%;
+    text-align: center;
+    z-index: 999;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(-100%); /* Initially off-screen */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition for opacity and position */
+
+    a {
+        color: #d40b0b;
+        text-decoration: none;
+        font-size: 30px;
+        text-align: center;
+        font-family: "Oswald", sans-serif;
+    }
+}
+
+.navLinks.open {
+    opacity: 1;
+    transform: translateY(0); /* Bring it into view */
+}
+
+/* Desktop */
+@media (min-width: 1080px) {
+    .hamburger {
+        display: none;
+    }
+
+    .navLinks {
+        display: flex;
+        justify-content: end;
+        flex-direction: row;
+        height: 2rem;
+        padding: 0;
+        gap: 5%;
+        background-color: transparent;
+        padding-right: 10%;
+        padding-top: 10px;
+        text-shadow: 4px 4px 3px #000;
+        opacity: 1;
+        transform: none;
+        transition: none;
+        
+        a {
+            font-size: 22px;
+            cursor: pointer;
+        }
+
+        a:hover {
+            color: #b70909;
+        }
+    }
+
+    .navLogo {
+        margin-left: 10%;
+        margin-top: -10px;
+    }
+}
