@@ -17,7 +17,6 @@ function NavBar() {
       </Link>
 
       <button className={styles.hamburger} onClick={toggleMenu} style={{ zIndex: '1000' }}>
-        {/* We render both icons but control their visibility via opacity and CSS transitions */}
         <FaBars 
           className={`${styles.icon} ${isOpen ? styles.iconHide : styles.iconShow}`} 
         />

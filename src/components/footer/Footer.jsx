@@ -13,9 +13,9 @@ function Footer() {
             </button>
             <div className={styles.media}>
                 <h3 className={styles.h3}>Social Media</h3>
-                <a href="https://chatgpt.com/" target="_blank"><img className={styles.icons} src="/assets/icon/chatgpt.png" /></a>
-                <a href="https://vello.ai/app" target="_blank"><img className={styles.icons} src="/assets/icon/vello.png" /></a>
-                <a href="https://ai.google/gemini-ecosystem" target="_blank"><img className={`${styles.icons} ${styles.gemini}`} src="/assets/icon/gemini.png" /></a>
+                <a href="https://chatgpt.com/" target="_blank"><img className={styles.icons} src="./assets/icon/chatgpt.png" /></a>
+                <a href="https://vello.ai/app" target="_blank"><img className={styles.icons} src="./assets/icon/vello.png" /></a>
+                <a href="https://ai.google/gemini-ecosystem" target="_blank"><img className={`${styles.icons} ${styles.gemini}`} src="./assets/icon/gemini.png" /></a>
             </div>
         </footer>
     )

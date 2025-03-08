@@ -27,13 +27,13 @@ function KimK({ id }) {
                 <div className={`${styles.imageContainer} ${isFlipped ? styles.flipped : ''}`}>
                     {isFlipped ? (
                         <img
-                            src="/assets/img/kimkpernille.png"
+                            src="./assets/img/kimkpernille.png"
                             className={styles.pernille}
                             alt="Second Image"
                         />
                     ) : (
                         <img
-                            src="/assets/img/kimk.png"
+                            src="./assets/img/kimk.png"
                             className={styles.kim}
                             alt="First Image"
                         />
